@@ -1,0 +1,139 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v30-latin-900.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-secondary-light: #747272;
+  --color-secondary-dark: #4a4a4a;
+  --color-white: #fff;
+  --color-one-time: #011f4a;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: var(--color-primary-light);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 140px;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+}
+
+.button {
+  color: white;
+  background-color: var(--color-primary-light);
+  border: 2px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+.button-description {
+  color: var(--color-secondary-dark);
+}
+
+.section-title {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.1;
+}
+
+.about-section-text {
+  font-size: 22px;
+  line-height: 0.6;
+}
+
+.section-title .accent {
+  color: var(--color-primary-light);
+  text-transform: capitalize;
+}
+
+.another-accent {
+  font-weight: 600;
+  color: var(--color-one-time);
+  text-transform: capitalize;
+}
+
+.accent-text {
+  color: var(--color-primary-light);
+}
+
+.link-footer {
+  color: var(--color-white);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.address-link {
+  color: var(--color-white);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.address-copyright {
+  font-size: 13px;
+  color: var(--color-secondary-light);
+}
